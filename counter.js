@@ -33,6 +33,7 @@ async function main(city) {
         try{
           const res=await fetch(url_aqi, {
             method: 'GET',
+            
             headers: {
                 'X-Api-Key': 'f+DTxui6YEiG0R/bN20gwg==Ad7PoPNZqiLXIKYJ',
                 'Content-Type': 'application/json'
